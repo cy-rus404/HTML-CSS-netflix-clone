@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 50px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 19px;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background: url(netflix2\ .jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+}
+section{
+    min-height: 100vh;
+}
+
+
+#signin{
+    margin-left: 1000px;
+    margin-top: 30px;
+    min-width: 90px;
+    min-height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+}
+
+p{
+    color: #fff;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-left: 65px;
+    padding-top: 0px;
+    font-family: 'Patua One', cursive;
+    margin-bottom: 0;
+}
+#text{
+    margin-bottom: 90px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+#watch{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+
+.newslatter form{
+    margin-left: 65px;
+    width: 270px;
+    max-width: 100%;
+    position: relative;
+    padding-top: 20px;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    padding: 16px 140px 16px 15px;
+    border: 1px solid white ;
+    border-radius: 5px;
+    background: black;
+    opacity: 0.7;
+    color: white;
+}
+.newslatter form input:last-child{
+    height: 45px;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: red;
+    color: rgb(253, 251, 251);
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor:pointer;
+    right: -305px;
+    top: 22px;
+    font-weight: bold;
+}
+
+#about{
+    background-color: rgb(7, 3, 43);
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+
+.about-container{
+    display: flex;
+}
+.about-container1{
+    display: flex;
+}
+.about-container2{
+    display: flex;
+}
+.about-container3{
+    display: flex;
+}
+
+.image-container{
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin-right: 25px;
+    width: -180px;
+    height: 340px;
+    margin-bottom: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    background:linear-gradient(to top, purple , indigo) ;
+
+}
+.image-container1{
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin-right: 25px;
+    width: -180px;
+    height: 340px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background:linear-gradient(to top, purple , indigo) ;
+
+}
+
+
+
+/* .about-container{
+    padding-bottom: 30px;
+    border: 1px solid rgb(21, 14, 87);
+    width: 320px;
+    height: 350px;
+    background:linear-gradient(to top, purple , indigo) ;
+    margin-left: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+} */
+
+h3{
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Patua One', cursive;
+    margin-bottom: 0;
+}
+
+h4{
+    font-size: 20px;
+    color: white;
+}
+
+
+#accordian{
+    background-color: rgb(7, 3, 43);
+}
+.image-container{
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin-right: 25px;
+    width: -180px;
+    height: 340px;
+    margin-bottom: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+    background:linear-gradient(to top, purple , indigo) ;
+
+}
+h1{
+    padding-top: 80px;
+}
+
+#accordion{
+    background-color: rgb(7, 3, 43);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#ans{
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
